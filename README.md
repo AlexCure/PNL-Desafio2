@@ -36,18 +36,22 @@ El trabajo incluye los siguientes puntos:
    * Reducción de dimensionalidad (PCA / t-SNE)
    * Análisis de agrupamientos de palabras
 
+## Desarrollo
+Para el dataset se utilizaron canciones del artista Bruno Mars. A partir del gráfico de embedings en 2D generado, se seleccionaron tres regiones de interés y sobre ellas se realizó el análisis correspondiente.
 ---
 
 ## Requisitos
 
+El notebook fue adaptado para poder ejecutarse de forma sencilla en Google Colab. Sin embargo, para su desarrollo en entorno local se utilizó un entorno virtual.
+
+En caso de optar por la ejecución local, se deben seguir las siguientes indicaciones.
+
 El proyecto utiliza **Poetry** para la gestión de dependencias.
 
-Instalación:
-
+**Instalación:**
 ```bash
 poetry install
 ```
-
 
 Ejecución:
 
